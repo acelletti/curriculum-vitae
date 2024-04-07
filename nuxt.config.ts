@@ -4,6 +4,7 @@ export default defineNuxtConfig({
   modules: ["@nuxtjs/tailwindcss", "@acelletti/nuxt-mdx"],
   css: ["~/index.scss"],
   app: {
+    baseURL: "/curriculum-vitae",
     head: {
       link: [
         {
